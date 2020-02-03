@@ -4,7 +4,7 @@ import xmltodict
 
 ip_addr="192.168.0.11"
 bouquet="userbouquet.dbe00.tv"
-fajl="/home/mitrus/plajlista.xspf"
+fajl="/home/pi/plajlista.xspf"
 
 def getxml():
     url = 'http://'+ip_addr+'/web/getservices?sRef=1:7:1:0:0:0:0:0:0:0:FROM BOUQUET "'+bouquet+'" ORDER BY bouquet'
